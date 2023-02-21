@@ -69,6 +69,7 @@ const Dashboard = () => {
             <CPaginationItem
               disabled={pageNumber === 1}
               onClick={() => handlePageClick(pageNumber - 1)}
+              className="buttons"
             >
               Previous
             </CPaginationItem>
@@ -77,6 +78,7 @@ const Dashboard = () => {
                 key={number}
                 active={number === pageNumber}
                 onClick={() => handlePageClick(number)}
+                className="pagination-numbers"
               >
                 {number}
               </CPaginationItem>
@@ -84,6 +86,7 @@ const Dashboard = () => {
             <CPaginationItem
               disabled={pageNumber === pageCount}
               onClick={() => handlePageClick(pageNumber + 1)}
+              className="buttons"
             >
               Next
             </CPaginationItem>
