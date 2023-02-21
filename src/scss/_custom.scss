@@ -1,0 +1,17 @@
+.text{
+   color: white;
+   text-decoration: none;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.values{
+    font-size: 16px;
+}
